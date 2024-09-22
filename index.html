@@ -13,24 +13,27 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
+        <form class="search-form">
             <input type="search"  placeholder="Enter a city..." required class="search-form-input">
-            <input type="submit" value="search" required class="search-form-submit">
+            <input type="submit" value="Search" required class="search-form-submit">
         </form>
     </header>
-    <main> 
-        <h1>Cape Town </h1>
     
-    <div>
-        <p>
+    <main> 
+        <div>
+        <h1 class="weather-city">Cape Town </h1>
+    
+    <div class="weather-data">
+        <p class="weather-details">
             Tuesday, 15:33 Scattered clouds <br>
-            Humidity: 50%  Wind: 15km/h
+            Humidity: <span>50%</span>  Wind: <span>15km/h</span>
         </p>
-    </div>
-    <div>
-        <p>
+    
+    <div class="weather-temp">
+        
             🌤️ 12°C
-        </p>
+        
+    </div> 
     </div>
     </main>
     <footer>Coded by fuww

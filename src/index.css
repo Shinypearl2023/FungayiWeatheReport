@@ -1,19 +1,46 @@
 body {
-    background-color: #f9f7fe;
+    background-color: #aa90eb;
     font-family: Arial, Helvetica, sans-serif;
 }
 .weather-app {
     background-color: white;
     max-width: 600px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     border-radius: 4px ;
 }
+header {
+    border-bottom: 1px solid red;
+    padding: 0 0 30px 0;
+}
+footer {
+    border-bottom: 1px solid red;
+    padding: 0 0 30px 0;
+    text-align: center;
+}
+.weather-data{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-city {
+    margin: 0;
+    font-size: 30px;
+}
+span {
+    color: palevioletred;
+}
+main {
+    padding: 30px;
+}
 .search-form-input {
-    background-color: #f9f7fe ;
+    background-color: #aa90eb ;
     border-radius: 6px;
+    border: none;
+    width: 80%;
 }
 .search-form-submit {
     background-color: blue;
     border-radius: 6px;
+    border: none;
+    color: white;
 }
