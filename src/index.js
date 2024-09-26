@@ -1,7 +1,7 @@
 
 
-// API Key for OpenWeather API
-const apiKey = "7oadaff804bbddf8a15t3480228f87b3"; // Replace with your OpenWeather API key
+
+const apiKey = "7oadaff804bbddf8a15t3480228f87b3"; 
 
 document.getElementById('search-form').addEventListener('submit', function(event) {
     event.preventDefault(); 
